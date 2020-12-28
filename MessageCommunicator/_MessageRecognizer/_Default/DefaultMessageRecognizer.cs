@@ -21,7 +21,7 @@ namespace MessageCommunicator
         private StringBuffer _receiveStringBuffer;
 
         /// <summary>
-        /// Creates a new <see cref="DefaultMessageRecognizer"/> instance.
+        /// Creates a new <see cref="RawMessageRecognizer"/> instance.
         /// </summary>
         /// <param name="encoding">The <see cref="Encoding"/> to be used when convert characters to/from bytes.</param>
         public DefaultMessageRecognizer(Encoding encoding)

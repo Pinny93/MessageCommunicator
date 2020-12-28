@@ -25,6 +25,9 @@ namespace MessageCommunicator.TestGui.Data
                 case MessageRecognitionMode.StartAndEndSymbol:
                     return new MessageRecognizerStartAndEndSymbolSettings();
 
+                case MessageRecognitionMode.Raw:
+                    return new MessageRecognizerRawSettings();
+
                 case MessageRecognitionMode.ByUnderlyingPackage:
                     return new MessageRecognizerByUnderlyingPackageSettings();
 
